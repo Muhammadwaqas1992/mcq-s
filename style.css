@@ -2,25 +2,40 @@
     margin: 0%;
     padding:0%;
     font-family: serif;
-    background: linear-gradient(rgb(73, 37, 2));
+    
+}
+.background-img {
+    background-image: url(bgimg.jpg);
+    background-color: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5));
+    width: 375px;
+    height: 481px;
 }
 .question1{
 margin: 18% 13%;
 padding: 10px 25px;
-border: 1px solid black;
+border: 1px solid rgb(255, 253, 253);
 border-radius: 50px;
 }
 h3{
-    color: rgb(0, 0, 0);
+    color: rgb(229, 245, 245);
     font-size: 1.5em;
     text-align: center;
+    text-transform: capitalize;
+
 }
 .option1{
     margin-top: -10%;
     margin-left: 30%;
+   
+}
+.option1 a:hover{
+    background-color: antiquewhite;
+    color: black;
+    transition: 0.6s ease;
 }
 ul{
     list-style-type: none;
+    
 }
 ul li{
     line-height: 78px;
@@ -28,13 +43,15 @@ ul li{
 ul li a{
     text-decoration: none;
     font-size: 1.5em;
+   
 }
 ul li a button{
     border-radius: 20px;
     width: 150px;
     height: 50px;
-    color:rgb(0, 0, 0);
+    color:rgb(194, 39, 39);
     font-size: 20px;
+    
 }
 .r1{
     font-size: 2em;
@@ -51,8 +68,14 @@ ul li a button{
     border-radius: 20px;
     width: 150px;
     height: 50px;
-    color:rgb(0, 0, 0);
+    color:rgb(39, 189, 194);
     font-size: 20px;
+    
+}
+.next a{
+    text-decoration: none;
+    color: crimson;
+
 }
 .w1{
     font-size: 2em;
@@ -63,4 +86,39 @@ ul li a button{
     font-size: 8em;
     color: red;
     margin: 20% 30%;
+}
+h1{
+    color: rgb(194, 39, 39);
+    font-size: 1.5em;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2em;
+    margin-top: 30px;
+}
+h4{
+    color: rgb(208, 245, 232);
+    font-size: 1.5em;
+    text-align: center;
+    text-transform: capitalize;
+    text-align: left;
+    margin-top: 35px;
+}
+.start{
+    border: 1px solid green;
+    width: 100px;
+    height: 50px;
+    font-size: 1.25em;
+    margin: 5% 35%;
+    border-radius: 50px;
+    
+    
+}
+.start a{
+    color: green;
+    text-decoration: none;
+}
+.start a:hover{
+    background-color: aquamarine;
+    color: black;
+    transition: 0.6 ease;
 }
